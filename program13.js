@@ -3,13 +3,13 @@
 
 let evenOrOdd = num => {
   if (num % 2 === 0)
-    return 0;
+    return "even";
   else
-    return 1;
+    return "odd";
 }
 
 let check=evenOrOdd(8);
-if(check === 0)
+if(check === "even")
   console.log("Even Number !");
-else
+else if(check === "odd")
   console.log("Odd Number !");

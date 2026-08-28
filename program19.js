@@ -1,7 +1,7 @@
 
 // Sum from 1 to N
 
-let sum = 0, n = 10, summation;
+let sum = 0, n = 10;
 
 let sumNumbers = i => {
   sum += i;
@@ -10,7 +10,7 @@ let sumNumbers = i => {
 }
 
 for (let i = 1; i <= n; i++) {
-  summation = sumNumbers(i);
+ sumNumbers(i);
 
 }
-console.log(`Sum from 1 to ${n} = `, summation);
+console.log(`Sum from 1 to ${n} = `,sum);
